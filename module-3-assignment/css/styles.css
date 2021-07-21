@@ -44,12 +44,12 @@ margin-top:10px;
 #new-super {
 	margin-bottom: 50px;
 }
-#main-content div{
+/*#main-content div{
 	background-color: #666600;
 	border:1px;
 	height:1700px;
 
-}
+}*/
 
 /*@media (max-width: 1200px){
 #main-content{
@@ -68,12 +68,13 @@ margin-top:10px;
 }*/
 
 
-@media(max-width: 767px){
+@media(min-width: 199px) and (max-width:767px) {
 .container{
 	background-color: #666600;
 	border:1px;
-	margin:20px 50px;
-	height:2200px;
+	margin:20px 40px;
+}
+
 }
 .container-fluid a {
 	font-size: 5vw;
