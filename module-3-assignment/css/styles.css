@@ -4,9 +4,6 @@ body {
   background-color: #333333;
   font-family: Arial, Helvetica, sans-serif ;
 }
-*{
-	box-sizing: border-box;
-}
 
 /** Header **/
 #Header-Nav{
@@ -36,13 +33,37 @@ margin-top:10px;
 	background-color: #f2d9e6;
 }
 #nav-list span:hover{
-	background-color: #ffc34d;
+	background-color: #000080;
 }
 #bs-example-navbar-collapse-1{
 	font-size: 2.0em;
 }
 #new-super {
 	margin-bottom: 50px;
+
+}
+#main-content div #new4  {
+	background-color:#b3b3ff;
+	color: #330000;
+	text-align: left;
+	padding: 10px;
+
+}
+#main-content div #new5  {
+	background-color:#b3b3ff;
+	color: #330000;
+	text-align: left;
+	padding: 10px;
+}
+#main-content div #new6  {
+	background-color:#b3b3ff;
+	color: #330000;
+	text-align: left;
+	padding: 10px;
+}
+.container{
+	text-align: center;
+	background-color: #666600;
 }
 /*#main-content div{
 	background-color: #666600;
@@ -51,20 +72,21 @@ margin-top:10px;
 
 }*/
 
-/*@media (max-width: 1200px){
-#main-content{
+/*@media (min-width: 1200px) {
+.container{
 	background-color: #666600;
 	border:1px;
-	padding:10px;
-	height:1700px;
+	margin:20px 20px;
 }
 
 }
-@media (min-width: 992px)and(max-width: 1199px){
-	#main-content{
+
+@media (min-width: 768px) and (max-width: 1199px){
+.container{
 	background-color: #666600;
 	border:1px;
-	padding:10px;
+	margin:20px 20px;
+}
 }*/
 
 
@@ -76,7 +98,9 @@ margin-top:10px;
 }
 
 }
+
 .container-fluid a {
 	font-size: 5vw;
 }
 }
+
